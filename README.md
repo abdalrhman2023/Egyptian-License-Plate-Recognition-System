@@ -44,26 +44,26 @@ A full-stack web application that automatically detects and recognizes Egyptian 
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                    Frontend (React)                  │
+│                    Frontend (React)                 │
 │       React 18 · TypeScript · Tailwind · shadcn/ui  │
-│       Recharts · Framer Motion · React Query         │
+│       Recharts · Framer Motion · React Query        │
 └──────────────────────┬──────────────────────────────┘
                        │  REST API (HTTP)
 ┌──────────────────────▼──────────────────────────────┐
-│                   Backend (FastAPI)                   │
-│         SQLAlchemy · SQLite · JWT Auth                │
-│                                                      │
+│                   Backend (FastAPI)                 │
+│         SQLAlchemy · SQLite · JWT Auth              │
+│                                                     │
 │  ┌─────────────┐  ┌──────────────┐  ┌────────────┐  │
-│  │   Routers   │  │   Services   │  │    Auth     │  │
-│  │  upload     │  │  detector.py │  │  JWT+Bcrypt │  │
-│  │  dashboard  │  │  YOLO models │  │             │  │
+│  │   Routers   │  │   Services   │  │    Auth    │  │
+│  │  upload     │  │  detector.py │  │  JWT+Bcrypt│  │
+│  │  dashboard  │  │  YOLO models │  │            │  │
 │  │  vehicles   │  │  OCR pipeline│  └────────────┘  │
-│  │  violations │  │  IoU tracker │                   │
-│  │  watchlist  │  └──────────────┘                   │
-│  │  analytics  │                                     │
-│  │  reports    │                                     │
-│  │  settings   │                                     │
-│  └─────────────┘                                     │
+│  │  violations │  │  IoU tracker │                  │
+│  │  watchlist  │  └──────────────┘                  │
+│  │  analytics  │                                    │
+│  │  reports    │                                    │
+│  │  settings   │                                    │
+│  └─────────────┘                                    │
 └─────────────────────────────────────────────────────┘
 ```
 
